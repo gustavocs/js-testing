@@ -26,7 +26,8 @@ Karma integration
 
 2. To run the tests and start the karma watching, type:
 > karma start karma-config.js
-Also there is a shortcut to this command configured in package.json in scripts section, that is 
+
+Also there is a shortcut to this command configured in package.json: 
 > npm test 
 
 
