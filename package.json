@@ -1,13 +1,13 @@
 {
-  "name": "jasmine-karma-demo",
+  "name": "js-testing",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "karma start karma-config.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Gustavo C. <gustavo.clemente@uruit.com> (https://github.com/gustavocs/js-testing/)",
+  "license": "GPL-3.0",
   "devDependencies": {
     "jasmine-core": "^2.5.2",
     "karma": "^1.3.0",
