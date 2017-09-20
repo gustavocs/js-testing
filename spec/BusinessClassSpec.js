@@ -1,8 +1,8 @@
-describe("AnotherClass", function() {
+describe("BusinessClass", function() {
     var obj;
 
     beforeEach(function() {
-        obj = new AnotherClass();
+        obj = new BusinessClass();
     });
  
     describe("test functions in different browsers", function(){
@@ -18,9 +18,11 @@ describe("AnotherClass", function() {
     describe("mocking external dependencies", function(){
 
         it("mocking a dependency", function() {
+            var svc = new Service();
+            obj = new BusinessClass(svc);
 
             //creates the spy and mocks the result
-            spyOn(obj, 'Invoke').and.callFake(function() {
+            spyOn(svc, 'Get').and.callFake(function() {
                 return { success: true };
             });
 
@@ -32,9 +34,11 @@ describe("AnotherClass", function() {
         });
 
         it("another sample", function() {
+            var svc = new Service();
+            obj = new BusinessClass(svc);
 
             //creates the spy and mocks the result
-            spyOn(obj, 'Invoke').and.callFake(function() {
+            spyOn(svc, 'Get').and.callFake(function() {
                 return { success: false };
             });
 

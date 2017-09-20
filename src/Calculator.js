@@ -1,4 +1,4 @@
-Calculator = function() {};
+Calculator = function Calculator() {};
  
 Calculator.prototype.sum = function(n1, n2) {
     return n1 + n2;
