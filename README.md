@@ -14,17 +14,15 @@ https://nodejs.org/en/download/
 > npm install
 
 # Vai!
-1. `src/*.js` are classes made for testing purposes
-2. `spec/*.js` is where the specs/tests are located
+
+1. `src/*.js`: classes made for testing purposes
+2. `spec/*.js` is where specs/tests are located
 3. To run the tests, just open `SpecRunner.html` in your browser
 
 # Karma integration
 
-- To run the tests and start the karma watching, type:
+- To run tests through Karma and start the watcher:
 > karma start karma-config.js
 
-- Also there is a shortcut to this command configured in package.json if you prefer: 
+- Too long? (Configured in package.json): 
 > npm test 
-
-
-
