@@ -66,7 +66,7 @@ describe("Calculator", function() {
             //call any method
             calc.exponentiate(2,5);
             
-            //verify it got executed
+            //verify if it got executed
             expect(calc.exponentiate).toHaveBeenCalled();
             expect(calc.exponentiate).toHaveBeenCalledWith(2,5);
         });

@@ -1,8 +1,9 @@
 AnotherClass = function() {};
  
-
+AnotherClass.prototype.StartsWith  = function(inputStr, firstLetter) {
+    return inputStr.startsWith(firstLetter);
+}
 AnotherClass.prototype.Invoke = function() {
-    
     alert("I was called");
 
     return { obj: {}, success: true };
@@ -17,8 +18,4 @@ AnotherClass.prototype.GetSomething  = function() {
     else {
         throw new Error("Error when calling service");
     }
-}
-
-AnotherClass.prototype.StartsWith  = function(inputStr, firstLetter) {
-    return inputStr.startsWith(firstLetter);
 }
