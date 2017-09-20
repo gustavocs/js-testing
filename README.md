@@ -2,24 +2,24 @@
  # JS Testing
  ----------------------
 
-Pre-requisites:
+## Pre-requisites:
  
-- Node.js, npm:
-https://nodejs.org/en/download/
+- [Node.js / npm](https://nodejs.org/en/download/)
 
 - Karma CLI
 > npm install -g karma-cli
 
-- Jasmine / Karma
+## Dependencies:
+- Jasmine / Karma / Karma plugins { `karma-failed-reporter`, `karma-chrome-launcher`, `karma-ie-launcher`, `karma-jasmine` }
 > npm install
 
-# Vai!
+## Vai!
 
 1. `src/*.js`: classes made for testing purposes
 2. `spec/*.js` is where specs/tests are located
 3. To run the tests, just open `SpecRunner.html` in your browser
 
-# Karma integration
+## Karma integration
 
 - To run tests through Karma and start the watcher:
 > karma start karma-config.js
