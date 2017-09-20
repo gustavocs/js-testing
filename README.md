@@ -1,5 +1,5 @@
  ----------------------
-| Jasmine + Karma demo
+| JS Testing
  ----------------------
 
 Pre-requisites:
